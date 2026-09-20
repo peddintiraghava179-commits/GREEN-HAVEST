@@ -1,30 +1,51 @@
 # 🌱 Green Harvest
 
-Green Harvest is a farmer-focused static web application for learning about natural fertilizers, exploring crops, getting local-data recommendations, using an educational calculator, and saving farm information in the browser.
+Green Harvest is a farmer-focused static web application about natural fertilizers, crops, soil awareness and sustainable farming.
 
-## Features
-- Natural fertilizer library
-- Fertilizer search
+## Live-ready features
+
+- Farmer-friendly responsive home page
+- Local browser login/register demo
+- Natural fertilizer library with search
+- Fertilizer detail pages
 - Crop library
-- Crop/soil recommendation tool
-- Educational application-range calculator
+- Crop + soil recommendation tool
+- Educational fertilizer calculator
 - My Farm dashboard
-- LocalStorage for saved records
-- Responsive mobile-friendly design
+- Save fertilizers and recommendations
+- Save farm records in LocalStorage
+- Farmer Learning Center
+- Mobile navigation
 - No paid API required
 
 ## Technology
-HTML5, CSS3, JavaScript, JavaScript objects, LocalStorage and GitHub Pages.
 
-## Run Locally
-Open `index.html` in a browser. For best results, serve the folder with a simple static server such as VS Code Live Server.
+HTML5, CSS3, JavaScript and browser LocalStorage. The project is suitable for GitHub Pages because it is a static website.
+
+## Pages
+
+- index.html - Home
+- pages/login.html - Local demo login/register
+- pages/fertilizers.html - Searchable fertilizer library
+- pages/fertilizer-details.html - Detailed fertilizer information
+- pages/crops.html - Crop library
+- pages/recommendation.html - Crop/soil recommendation
+- pages/calculator.html - Educational calculator
+- pages/learning.html - Farmer learning center
+- pages/dashboard.html - My Farm dashboard
+
+## Run
+
+Open index.html, or use VS Code Live Server for local development.
+
+## GitHub Pages
+
+Enable GitHub Pages for the main branch and root folder in the repository settings.
 
 ## Important
-The project provides educational information and sample calculations. Actual fertilizer selection and application should consider soil testing, crop requirements, local conditions and qualified agricultural guidance.
 
-## Structure
-- `index.html` - Home page
-- `pages/` - Application pages
-- `css/` - Styles
-- `js/` - Application logic and data
-- `README.md` - Project documentation
+This is an educational project. The website's recommendations and sample calculator values are not universal agronomic prescriptions. Actual fertilizer selection and application should consider soil testing, crop requirements, local conditions and qualified agricultural guidance.
+
+## Future upgrades
+
+A future version can add a secure backend, real farmer accounts, a database, multilingual content, weather services, IoT sensor data and verified agricultural advisory services.
